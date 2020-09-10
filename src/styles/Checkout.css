@@ -1,0 +1,27 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__empty {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.checkout__empty > a {
+  color: #f0c14b;
+  text-decoration: none;
+}
+
+.checkout__back {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

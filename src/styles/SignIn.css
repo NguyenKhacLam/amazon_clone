@@ -1,0 +1,109 @@
+.signIn {
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  height: 101vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn__content {
+  width: 85%;
+  background-color: white;
+  padding: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.signIn__logo {
+  width: 50%;
+  margin-right: 30px;
+  max-width: 100%;
+  width: 200px;
+  object-fit: contain;
+}
+
+.signIn__form {
+  width: 50%;
+}
+
+.signIn__form > h3 {
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 54px;
+}
+
+.signIn__form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signIn__formField {
+  margin-top: 15px;
+  color: #666666;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.signIn__formField > input {
+  font-size: 15px;
+  width: 100%;
+  height: 30px;
+  background: #e6e6e6;
+  outline: none;
+  border: none;
+}
+
+.signIn__formFieldBtn {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 116%;
+}
+
+.signIn__formFieldBtn > button {
+  font-size: 15px;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: #f0c14b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.4s;
+}
+
+.signIn__formFieldBtn > button:hover {
+  background: #333333;
+}
+
+.signIn__back {
+  margin-top: 20px;
+  color: #333333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+}
+
+.signIn__back:hover {
+  color: #f0c14b;
+}
+
+.signIn__back > .MuiSvgIcon-root {
+  padding-right: 10px;
+}
